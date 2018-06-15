@@ -1,0 +1,107 @@
+* {
+    text-align: center;
+    margin: auto;
+    font-size: 1vw;
+    
+}
+
+html{
+    overflow: hidden;
+}
+
+body {
+    color:white;
+    background-image: url(images/drone-view-2168603_1920.jpg);
+    background-size: cover;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+}
+
+.content{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    width: 70vw;
+    height: 100vh;
+    background:rgba(0,0,0,0.8)
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: red;
+}
+
+#dronevideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+h1 {
+    position: absolute;
+    left: 1000px;
+    padding-top: 400px;
+    color: black
+}
+
+h2 {
+    color: white;
+    
+}
+.coolfacts {
+    text-align: center;
+    margin: auto;
+    }
+
+img{
+    height: 900px;
+    max-height: 100%;
+    max-width: 100%;
+    height: 50%;
+    width: 80%;
+    padding-top: 100px;
+}
+
+drones {
+    position:center;
+    font-size: 98px;
+}
+
+.drone{
+    padding-top: 30vh;
+    color: black;
+}
+.facts{
+    font-size: 100px;
+}
+.about {
+    font-size: 100px;
+}
+.images{
+}
